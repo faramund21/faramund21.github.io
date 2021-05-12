@@ -1,0 +1,136 @@
+body {
+	margin: 0;
+	padding: 0;
+	
+	font-family: Arial, sans-serif;
+	font-size: 16px;
+	line-height: 24px;
+	font-weight: 400;
+	color: #A4A5A7;
+	
+	background-color: #2D2E2E;
+	background-position: top center;
+	background-repeat: no-repeat;
+}
+a {
+	text-decoration: none;
+	color: #A4A5A7;
+}
+
+h2 {
+	text-transform: uppercase;
+	text-align: right;
+}
+
+h3 {
+	text-transform: uppercase;
+}	
+
+.main-navigation {
+	font-size: 16px;
+	line-height: 24px;
+	color: #A4A5A7;
+	
+	background-color: #2B2C2C;
+}
+
+.site-navigation a:hover,
+.site-navigation a:focus {
+	color: #E0A80B;
+}
+
+.name {
+	font-family: Courier New, sans-serif;
+	font-size: 52px;
+	line-height: 1px;
+	font-weight: 400;
+	color: #A4A5A7;
+}
+
+.second-name {
+	color: #E0A80B;
+	font-size: 56px;
+	line-height: 1px;
+	font-weight: 700;
+	text-transform: uppercase;
+}
+
+.social-list,
+.site-navigation,
+.contact-list,
+.knowledge-list,
+.TS-list {
+	list-style-type: none;
+}
+
+.social-list,
+.contact-item {
+	text-align: center;
+}
+
+.social-list a:hover,
+.social-list a:focus,
+.social-list a:active {
+	color: #E0A80B;
+}
+
+.left {
+	text-align: right;
+}
+
+/*backgrounds*/
+.personal-information,
+.technical-skills,
+.edication {
+	background-color: #292A2A;
+}
+
+.PI-description,
+.TS-list,
+.edication-list {
+	background-color: #2B2C2C;
+}
+
+.knowledge,
+.expirience {
+	background-color: #2B2C2C;
+}
+
+.knowledge-list,
+.expirience-list {
+	background-color: #2D2E2E;
+}
+
+.foto {
+	background-color: #2B2C2C;
+	background-position: center;
+	
+}
+
+.foto-contact {
+	background-color: #2D2E2E;
+}
+
+/*colortexts*/
+.colortext {
+     color: #E3A804;
+   }
+
+.colortext2 {
+     color: #646567;
+   }
+
+.button {
+	font: inherit;
+	text-align: center;
+	color: #A4A5A7;
+	vertical-align: middle;
+	background-color: #2B2C2C;
+	border-color: #A4A5A7;
+}
+
+.button:hover,
+.button:focus,
+.button:active {
+	color: #E0A80B;
+}
