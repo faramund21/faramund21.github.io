@@ -17,6 +17,10 @@ a {
 	color: #A4A5A7;
 }
 
+h1 {
+	font-size:0;
+}
+
 h2 {
 	text-transform: uppercase;
 	text-align: right;
@@ -102,13 +106,13 @@ h3 {
 }
 
 .foto {
-	background-color: #2B2C2C;
-	background-position: center;
-	
+	background-image: url("img/bg.jpg"); /*РАЗОБРАТЬСЯ*/
+	background-size: top center-right;/*РАЗОБРАТЬСЯ*/
+	background-repeat: no-repeat;/*РАЗОБРАТЬСЯ*/
 }
 
 .foto-contact {
-	background-color: #2D2E2E;
+	background-color: #2D2E2E; 
 }
 
 /*colortexts*/
@@ -133,4 +137,35 @@ h3 {
 .button:focus,
 .button:active {
 	color: #E0A80B;
+}
+
+.personal-information,
+.knowledge,
+.technical-skills,
+.expirience,
+.edication,
+.contact-bottom-up,
+.contact-bottom-down {
+	display: flex;
+	margin: 0;
+	padding: 0;
+}
+
+.left-column {
+	width: 390px;
+	margin: 0;
+	padding: 60px;
+}
+
+.PI-description,
+.knowledge-list,
+.TS-list,
+.expirience-list,
+.edication-list,
+.contact-list,
+.social-list {
+	flex-grow: 1;
+	margin: 0;
+	padding: 60px;
+	min-height: 250px;
 }
