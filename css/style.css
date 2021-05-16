@@ -19,6 +19,7 @@ a {
 
 h1 {
 	font-size:0;
+	line-height: 0px;
 }
 
 h2 {
@@ -32,7 +33,7 @@ h3 {
 
 .main-navigation {
 	font-size: 16px;
-	line-height: 24px;
+	line-height: 0px;
 	color: #A4A5A7;
 	
 	background-color: #2B2C2C;
@@ -227,7 +228,7 @@ h3 {
 	width: 390px;
 	margin: 0;
 	padding: 60px;
-	min-height: 528px;
+	min-height: 570px;
 }
 
 .knowledge-list,
@@ -239,7 +240,21 @@ h3 {
 	padding: 60px;
 	min-height: 250px;
 }
+.edication-column {
+	flex-grow: 1;
+}
 
+.edication-list {
+	display: flex;
+	padding: 60px;
+	padding-right: 0px;	
+	flex-grow: 1;
+}
+
+.edication-item {
+	padding-right: 60px;
+	flex-grow: 1;
+}
 .contact-list,
 .social-list {
 	flex-grow: 1;
