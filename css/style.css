@@ -8,13 +8,18 @@ body {
 	font-weight: 400;
 	color: #A4A5A7;
 	
-	background-color: #2D2E2E;
+	background-color: #2B2C2C;
 	background-position: top center;
 	background-repeat: no-repeat;
 }
 a {
 	text-decoration: none;
 	color: #A4A5A7;
+}
+
+h1 {
+	font-size:0;
+	line-height: 0px;
 }
 
 h2 {
@@ -28,7 +33,7 @@ h3 {
 
 .main-navigation {
 	font-size: 16px;
-	line-height: 24px;
+	line-height: 0px;
 	color: #A4A5A7;
 	
 	background-color: #2B2C2C;
@@ -39,20 +44,56 @@ h3 {
 	color: #E0A80B;
 }
 
-.name {
+.name-top {
+	font-family: Courier New, sans-serif;
+	font-size: 60px;
+	line-height: 1px;
+	font-weight: 400;
+	color: #A4A5A7;
+	text-align: left;
+	margin-bottom: 50px;
+	padding-left: 60px;
+}
+
+.second-name-top {
+	color: #E0A80B;
+	font-size: 66px;
+	line-height: 1px;
+	font-weight: 700;
+	text-transform: uppercase;
+	text-align: left;
+	margin-bottom: 50px;
+	margin-top: 30px;
+	padding-left: 60px;
+}
+
+.direction	{
+	text-align: left;
+	margin-bottom: 0px;
+	padding-left: 60px;
+	font-size: 20px;
+}
+
+.social {
+	padding-right: 60px;
+}
+
+.name-bottom {
 	font-family: Courier New, sans-serif;
 	font-size: 52px;
 	line-height: 1px;
 	font-weight: 400;
 	color: #A4A5A7;
+	text-align: left;
 }
 
-.second-name {
+.second-name-bottom {
 	color: #E0A80B;
 	font-size: 56px;
 	line-height: 1px;
 	font-weight: 700;
 	text-transform: uppercase;
+	text-align: left;
 }
 
 .social-list,
@@ -96,19 +137,30 @@ h3 {
 	background-color: #2B2C2C;
 }
 
+.name-social-contact,
 .knowledge-list,
 .expirience-list {
 	background-color: #2D2E2E;
 }
 
+/*размещение фото*/
 .foto {
-	background-color: #2B2C2C;
-	background-position: center;
-	
+    display: flex;
+    justify-content: center;
+    align-items: center;
 }
 
-.foto-contact {
-	background-color: #2D2E2E;
+.name-social-contact {
+	flex-grow: 1;
+	margin: 0;
+}
+
+.name-social {
+	display: flex;
+	width: auto;
+	justify-content: space-between;
+	height: 375px;
+	align-items: flex-end;
 }
 
 /*colortexts*/
@@ -133,4 +185,96 @@ h3 {
 .button:focus,
 .button:active {
 	color: #E0A80B;
+}
+
+.site-navigation {
+	display: flex;
+	justify-content: space-around;
+	padding: 0;
+}
+
+.contact-list,
+.social-list {
+	display: flex;
+	justify-content: space-around;
+}
+
+.foto-contact,
+.personal-information,
+.knowledge,
+.technical-skills,
+.expirience,
+.edication {
+	display: flex;
+	margin: 0;
+	padding: 0;
+}
+
+.contact-bottom-up,
+.contact-bottom-down {
+	display: flex;
+	margin: 0;
+	padding: 0;
+	align-items: end;
+}
+
+.left-column {
+	width: 390px;
+	margin: 0;
+	padding: 60px;
+	flex-shrink: 0;
+}
+
+.foto {
+	width: 390px;
+	margin: 0;
+	padding: 60px;
+	min-height: 570px;
+}
+
+.knowledge-list,
+.TS-list,
+.expirience-list,
+.edication-list {
+	flex-grow: 1;
+	margin: 0;
+	padding: 60px;
+	min-height: 250px;
+}
+.edication-column {
+	flex-grow: 1;
+}
+
+.edication-list {
+	display: flex;
+	padding: 60px;
+	padding-right: 0px;	
+	flex-grow: 1;
+}
+
+.edication-item {
+	padding-right: 60px;
+	flex-grow: 1;
+}
+
+.social-list {
+	margin: 0;
+	align-items: center;
+	min-height: 250px;
+}
+
+.contact-list {
+	flex-grow: 1;
+	margin: 0;
+	align-items: start;
+	padding-top: 60px;
+	padding-left: 0px;
+}
+
+.PI-description {
+	flex-grow: 1;
+	margin: 0;
+	padding: 60px;
+	padding-top: 75px;
+	min-height: 250px;
 }
