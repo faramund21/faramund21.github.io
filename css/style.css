@@ -17,6 +17,10 @@ a {
 	color: #A4A5A7;
 }
 
+p {
+	margin: 0;
+}
+
 h1 {
 	font-size:0;
 	line-height: 0px;
@@ -47,30 +51,28 @@ h3 {
 .name-top {
 	font-family: Courier New, sans-serif;
 	font-size: 60px;
-	line-height: 1px;
+	line-height: 40px;
 	font-weight: 400;
 	color: #A4A5A7;
 	text-align: left;
-	margin-bottom: 50px;
 	padding-left: 60px;
 }
 
 .second-name-top {
 	color: #E0A80B;
 	font-size: 66px;
-	line-height: 1px;
+	line-height: 60px;
 	font-weight: 700;
 	text-transform: uppercase;
 	text-align: left;
-	margin-bottom: 50px;
-	margin-top: 30px;
 	padding-left: 60px;
 }
 
 .direction	{
 	text-align: left;
 	margin-bottom: 0px;
-	padding-left: 60px;
+	padding: 60px;
+	padding-top: 20px;
 	font-size: 20px;
 }
 
@@ -81,19 +83,21 @@ h3 {
 .name-bottom {
 	font-family: Courier New, sans-serif;
 	font-size: 52px;
-	line-height: 1px;
+	line-height: 40px;
 	font-weight: 400;
 	color: #A4A5A7;
 	text-align: left;
+	margin: 0;
 }
 
 .second-name-bottom {
 	color: #E0A80B;
 	font-size: 56px;
-	line-height: 1px;
+	line-height: 60px;
 	font-weight: 700;
 	text-transform: uppercase;
 	text-align: left;
+	margin: 0px;
 }
 
 .social-list,
@@ -102,11 +106,6 @@ h3 {
 .knowledge-list,
 .TS-list {
 	list-style-type: none;
-}
-
-.social-list,
-.contact-item {
-	text-align: center;
 }
 
 .social-list a:hover,
@@ -143,6 +142,10 @@ h3 {
 	background-color: #2D2E2E;
 }
 
+.footer-left-column {
+	background-color: #2D2E2E;
+}
+
 /*размещение фото*/
 .foto {
     display: flex;
@@ -154,14 +157,14 @@ h3 {
 .name-social-contact {
 	flex-grow: 1;
 	margin: 0;
-	width: 100%
+	width: auto;
 }
 
 .name-social {
 	display: flex;
 	width: auto;
 	justify-content: space-between;
-	height: 375px;
+	height: 450px;
 	align-items: flex-end;
 }
 
@@ -179,7 +182,7 @@ h3 {
 	text-align: center;
 	color: #A4A5A7;
 	vertical-align: middle;
-	background-color: #2B2C2C;
+	background-color: #2D2E2E;
 	border-color: #A4A5A7;
 }
 
@@ -195,10 +198,19 @@ h3 {
 	padding: 0;
 }
 
-.contact-list,
+.contact-list {
+	display: flex;
+	justify-content: space-between;
+}
+
 .social-list {
 	display: flex;
-	justify-content: space-around;
+	justify-content: flex-end;
+	align-items: flex-end;
+}
+
+.social-item {
+	padding-left: 10px;
 }
 
 .foto-contact,
@@ -217,7 +229,7 @@ h3 {
 	display: flex;
 	margin: 0;
 	padding: 0;
-	align-items: end;
+	justify-content: space-between;
 }
 
 .left-column {
@@ -227,11 +239,17 @@ h3 {
 	flex-shrink: 0;
 }
 
+.footer-left-column {
+	flex-grow: 1;
+	margin: 0;
+	padding: 60px;
+}
+
 .foto {
 	width: 390px;
 	margin: 0;
 	padding: 60px;
-	min-height: 570px;
+	min-height: 565px;
 }
 
 .knowledge-list,
@@ -241,8 +259,8 @@ h3 {
 	flex-grow: 1;
 	margin: 0;
 	padding: 60px;
-	min-height: 250px;
-	width: 100%
+	min-height: 150px;
+	width: auto;
 }
 .edication-column {
 	flex-grow: 1;
@@ -260,18 +278,22 @@ h3 {
 	flex-grow: 1;
 }
 
+.footer-right-side {
+	flex-grow: 1;
+	background-color: #2D2E2E;
+}
+
 .social-list {
 	margin: 0;
-	align-items: center;
-	min-height: 250px;
+	flex-grow: 1;
+	padding: 60px;
 }
 
 .contact-list {
 	flex-grow: 1;
 	margin: 0;
 	align-items: start;
-	padding-top: 60px;
-	padding-left: 0px;
+	padding: 60px;
 }
 
 .PI-description {
@@ -279,6 +301,6 @@ h3 {
 	margin: 0;
 	padding: 60px;
 	padding-top: 75px;
-	min-height: 250px;
-	width: 100%
+	min-height: 100px;
+	width: auto;
 }
