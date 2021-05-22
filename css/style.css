@@ -16,6 +16,7 @@ body {
 a {
 	text-decoration: none;
 	color: #A4A5A7;
+	padding: 16px 0;
 }
 
 p {
@@ -90,18 +91,22 @@ h3 {
 
 
 /* Главная навигация */
-.main-navigation {
-	font-size: 16px;
-	line-height: 0px;
-	color: #A4A5A7;
+.main-header {
+	display: flex;
+	width: 100%;
+}
 	
-	background-color: #2B2C2C;
+.main-navigation {
+	color: #A4A5A7;
+	width: 100%;
 }
 
 .site-navigation {
 	display: flex;
 	justify-content: space-around;
-	padding: 0;
+	padding: 8px 0;
+	margin: 0;
+	width:100%;
 	
 	list-style-type: none;
 }
@@ -112,11 +117,15 @@ h3 {
 }
 
 
+/* Main контейнер */
+.container {
+	width: 100%;
+}
+
+
 /* Титульная foto-contact */
 .foto-contact {
 	display: flex;
-	margin: 0;
-	padding: 0;
 }
 
 .foto {
@@ -126,7 +135,6 @@ h3 {
 	flex-shrink: 0;
 	
 	width: 390px;
-	margin: 0;
 	padding: 60px;
 	min-height: 580px;
 }
