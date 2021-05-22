@@ -304,6 +304,7 @@ h3 {
 
 .TS-list {
 	display: flex;
+	justify-content: space-between;
 	flex-grow: 1;
 	flex-wrap: wrap;
 
@@ -453,7 +454,7 @@ h3 {
 /* Опыт работы */
 .expirience {
 	display: flex;
-
+	justify-content: space-between;
 	margin: 0;
 	padding: 0;
 
@@ -554,6 +555,7 @@ h3 {
 	position: relative;
 	
 	display: flex;
+	justify-content: space-between;
 	flex-grow: 1;
 
 	padding-bottom: 60px;
