@@ -93,10 +93,12 @@ h3 {
 /* Главная навигация */
 .main-header {
 	display: flex;
+	flex-grow: 1;
 	width: 100%;
 }
 	
 .main-navigation {
+	flex-grow: 1;
 	color: #A4A5A7;
 	width: 100%;
 }
